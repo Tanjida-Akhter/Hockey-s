@@ -80,13 +80,20 @@
         </div>
       </div>
       <!-- banner -->
-      <div class="carousel my-4 h-[650px]">
+      <div class="carousel my-4 h-[350px] lg:h-[650px]">
         <div id="slide1" class="carousel-item relative w-full">
           <img src="Images/1.png" class="w-full" />
           <div
-            class="absolute bottom-4 right-5 h-[165px] bg-black text-white rounded"
+            class="px-10 py-10 absolute bottom-7 right-7 h-[165px] bg-black text-white rounded-2xl"
           >
-            Hello World
+            <p class="font-extrabold text-2xl">
+              Meet all the heroes from the field
+            </p>
+            <p class="text-sm text-slate-300 py-4">
+              Hockey clubs play a crucial role in promoting the sport, fostering
+              a sense of community <br />
+              among players and fans, and providing opportunities for people.
+            </p>
           </div>
           <div
             class="absolute flex justify-between transform -translate-y-1/2 bottom-4 left-4 bottom-1/4 space-x-4"
@@ -225,7 +232,7 @@
         </div>
       </div>
       <!-- three programs -->
-      <div class="my-10 flex flex-col gap-x-8 lg:flex-row h-[350px]">
+      <div class="my-10 flex flex-col gap-x-8 h-[650px] gap-12 p-6 lg:flex-row">
         <div
           class="hero bg-cover bg-center rounded-2xl"
           style="background-image: url(/Images/2.png)"
@@ -309,7 +316,7 @@
         </div>
       </div>
       <!-- products -->
-      <div class="grid grid-cols-2 gap-6">
+      <div class="grid lg:grid-cols-2 gap-6">
         <div class="card card-side border-inherit border-2 p-6">
           <figure><img src="Images/5.png" alt="jacket" /></figure>
           <div class="card-body">
@@ -576,10 +583,10 @@
           organizations.
         </div>
       </div>
-      <div class="flex gap-6">
+      <div class="flex flex-col lg:flex-row gap-6">
         <!-- left side of get in touch -->
         <div
-          class="w-2/6 flex flex-col gap-8 border-2 border-gray-200 p-8 rounded-2xl"
+          class="lg:w-2/6 flex flex-col gap-8 border-2 border-gray-200 p-8 rounded-2xl"
         >
           <div class="card p-6 bg-lime-50">
             <div class="text-left">
@@ -689,8 +696,8 @@
       </div>
     </main>
     <footer>
-      <footer class="footer p-10 bg-black text-white text-base-content">
-        <aside>
+      <footer class="footer p-24 bg-black text-white text-base-content">
+        <aside class="gap-4">
           <div class="font-extrabold text-2xl">Get In Touch</div>
           <div class="text-sm text-slate-300">
             These clubs can range <br />
@@ -705,28 +712,30 @@
             <i class="text-red-700 fa-solid fa-phone"></i> (+62) 123-321-543
           </div>
         </aside>
-        <nav>
-          <h6 class="footer-title">Company</h6>
-          <a class="link link-hover">About Us</a>
-          <a class="link link-hover">Leadership</a>
-          <a class="link link-hover">Careers</a>
-          <a class="link link-hover">News & Article</a>
-          <a class="link link-hover">Legal Notice</a>
+        <nav class="gap-5">
+          <h6 class="font-bold text-lg">Company</h6>
+          <a class="text-sm text-slate-300 link link-hover">About Us</a>
+          <a class="text-sm text-slate-300 link link-hover">Leadership</a>
+          <a class="text-sm text-slate-300 link link-hover">Careers</a>
+          <a class="text-sm text-slate-300 link link-hover">News & Article</a>
+          <a class="text-sm text-slate-300 link link-hover">Legal Notice</a>
         </nav>
-        <nav>
-          <h6 class="footer-title">Support</h6>
-          <a class="link link-hover">Help Center</a>
-          <a class="link link-hover">FAQ</a>
-          <a class="link link-hover">Ticket Support</a>
-          <a class="link link-hover">Contact Us</a>
+        <nav class="gap-5">
+          <h6 class="font-bold text-lg">Support</h6>
+          <a class="text-sm text-slate-300 link link-hover">Help Center</a>
+          <a class="text-sm text-slate-300 link link-hover">FAQ</a>
+          <a class="text-sm text-slate-300 link link-hover">Ticket Support</a>
+          <a class="text-sm text-slate-300 link link-hover">Contact Us</a>
         </nav>
-        <nav>
-          <h6 class="footer-title">Services</h6>
-          <a class="link link-hover">Academy</a>
-          <a class="link link-hover">Group Lesson</a>
-          <a class="link link-hover">Private Lesson</a>
-          <a class="link link-hover">Hockeys for kids</a>
-          <a class="link link-hover">Hockeys for Adult</a>
+        <nav class="gap-5">
+          <h6 class="font-bold text-lg">Services</h6>
+          <a class="text-sm text-slate-300 link link-hover">Academy</a>
+          <a class="text-sm text-slate-300 link link-hover">Group Lesson</a>
+          <a class="text-sm text-slate-300 link link-hover">Private Lesson</a>
+          <a class="text-sm text-slate-300 link link-hover">Hockeys for kids</a>
+          <a class="text-sm text-slate-300 link link-hover"
+            >Hockeys for Adult</a
+          >
         </nav>
       </footer>
     </footer>
